@@ -10,7 +10,7 @@ Code for the paper:
 
 <p align="center">
   <a href="https://doi.org/10.1016/j.meadig.2026.100044">
-    <img src="docs/paper_first_page.png" width="650" alt="First page of the paper (click to open)">
+    <img src="docs/paper_first_page.jpg" width="650" alt="First page of the paper (click to open)">
   </a><br>
   <sub>Click the image to open the paper (open access, CC BY 4.0).</sub>
 </p>
