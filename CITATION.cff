@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "dryland-eta-ml: footprint-aware machine learning for daily evapotranspiration"
+authors:
+  - family-names: Lamichhane
+    given-names: Manoj
+license: MIT
+preferred-citation:
+  type: article
+  title: "Daily actual evapotranspiration estimation in dryland cropping systems using parsimonious machine learning frameworks"
+  authors:
+    - family-names: Lamichhane
+      given-names: Manoj
+    - family-names: Mehan
+      given-names: Sushant
+    - family-names: Mankin
+      given-names: Kyle R.
+  journal: "Measurement: Digitalization"
+  volume: 7
+  start: 100044
+  year: 2026
+  doi: "10.1016/j.meadig.2026.100044"
