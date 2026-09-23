@@ -8,6 +8,11 @@ Code for the paper:
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/python-3.10%E2%80%933.12-blue)
 
+<p align="center">
+  <img src="docs/graphical_abstract.jpg" width="800" alt="Graphical abstract"><br>
+  <sub>Graphical abstract from Lamichhane et al. (2026), CC BY 4.0.</sub>
+</p>
+
 ## Overview
 
 Actual evapotranspiration (ETa) is the water a crop field actually loses to the atmosphere. It is the best single measure of crop water use, but it is only measured directly at a few eddy covariance (EC) towers. This project trains ML models on seven years of tower data (2019-2025) from two dryland fields at the USDA-ARS Central Great Plains Research Station (Akron, Colorado), and then uses them to map daily ETa at 30 m resolution.
@@ -90,7 +95,7 @@ Notebooks 01, 03-06 are run once per site (`SITE = "ASP"` or `"BAU"`) and, where
 ## Getting started
 
 ```bash
-git clone https://github.com/<Manoj-byte343>/dryland-eta-ml.git
+git clone https://github.com/Manoj-byte343/dryland-eta-ml.git
 cd dryland-eta-ml
 
 conda env create -f environment.yml      # recommended, rasterio/geopandas install cleanly from conda-forge
@@ -102,7 +107,7 @@ jupyter lab
 
 Notebook 04 also needs the FFP model script from https://footprint.kljun.net. It is not redistributed here; see [`src/README.md`](src/README.md).
 
-To reproduce the modelling results only (notebooks 07 and 08), the two files in `data/model_input/` are enough. See [`data/README.md`](data/README.md) for the full folder layout and column descriptions.
+The data are available from the authors on request. With the two model input tables placed in `data/model_input/`, notebooks 07 and 08 reproduce the modelling results. See [`data/README.md`](data/README.md) for the full folder layout and column descriptions.
 
 ## Repository structure
 
@@ -141,6 +146,13 @@ If you use this code, please cite the paper (see [`CITATION.cff`](CITATION.cff))
 }
 ```
 
+<p align="center">
+  <a href="https://doi.org/10.1016/j.meadig.2026.100044">
+    <img src="docs/paper_first_page.png" width="650" alt="First page of the paper (click to open)">
+  </a><br>
+  <sub>Click the image to open the paper (open access, CC BY 4.0).</sub>
+</p>
+
 Please also cite Kljun et al. (2015), *Geosci. Model Dev.* 8, 3695-3713, for the footprint model.
 
 ## Acknowledgements
@@ -149,4 +161,4 @@ Supported in part by USDA NIFA Hatch SD00H817-24/SD00R793-26 and Agreement 58-30
 
 ## Contact
 
-Manoj Lamichhane - <manoj.lamichhane@jacks.sdstate.edu> - [LinkedIn](<www.linkedin.com/in/manoj-lamichhane-ph-d-58455028b>)
+Manoj Lamichhane - <manoj.lamichhane@jacks.sdstate.edu> - [LinkedIn](<https://www.linkedin.com/in/manoj-lamichhane-ph-d-58455028b/>)
