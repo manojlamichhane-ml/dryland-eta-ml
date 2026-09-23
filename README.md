@@ -9,8 +9,10 @@ Code for the paper:
 ![Python](https://img.shields.io/badge/python-3.10%E2%80%933.12-blue)
 
 <p align="center">
-  <img src="docs/graphical_abstract.jpg" width="800" alt="Graphical abstract"><br>
-  <sub>Graphical abstract from Lamichhane et al. (2026), CC BY 4.0.</sub>
+  <a href="https://doi.org/10.1016/j.meadig.2026.100044">
+    <img src="docs/paper_first_page.png" width="650" alt="First page of the paper (click to open)">
+  </a><br>
+  <sub>Click the image to open the paper (open access, CC BY 4.0).</sub>
 </p>
 
 ## Overview
@@ -26,6 +28,11 @@ What the pipeline does:
   - **Temporal blocking:** leave-one-year-out over 2019-2025.
   - **Spatial blocking:** train on one tower, test on the other field, which has a different crop rotation.
 - **Mapping and analysis.** A final model is applied to daily rasters, and ETa is summarised by crop type (wheat, corn, millet, fallow).
+
+<p align="center">
+  <img src="docs/graphical_abstract.jpg" width="800" alt="Graphical abstract"><br>
+  <sub>Graphical abstract from Lamichhane et al. (2026), CC BY 4.0.</sub>
+</p>
 
 ## Key results
 
@@ -146,13 +153,6 @@ If you use this code, please cite the paper (see [`CITATION.cff`](CITATION.cff))
 }
 ```
 
-<p align="center">
-  <a href="https://doi.org/10.1016/j.meadig.2026.100044">
-    <img src="docs/paper_first_page.png" width="650" alt="First page of the paper (click to open)">
-  </a><br>
-  <sub>Click the image to open the paper (open access, CC BY 4.0).</sub>
-</p>
-
 Please also cite Kljun et al. (2015), *Geosci. Model Dev.* 8, 3695-3713, for the footprint model.
 
 ## Acknowledgements
@@ -161,4 +161,4 @@ Supported in part by USDA NIFA Hatch SD00H817-24/SD00R793-26 and Agreement 58-30
 
 ## Contact
 
-Manoj Lamichhane - <manoj.lamichhane@jacks.sdstate.edu> - [LinkedIn](<https://www.linkedin.com/in/manoj-lamichhane-ph-d-58455028b/>)
+Manoj Lamichhane - [manoj.lamichhane@jacks.sdstate.edu](mailto:manoj.lamichhane@jacks.sdstate.edu) - [LinkedIn](https://www.linkedin.com/in/manoj-lamichhane-ph-d-58455028b/)
